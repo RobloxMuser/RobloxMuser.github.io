@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Color Picker Tool</title>
+     <link rel="stylesheet" href="styles.css">
+	 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	 <link rel="icon" href="icon.png" type="image/png" sizes="16x16">
+ </head>
+ <body><center><noscript> <header>If you see this text, your browser has JavaScript, what has limited opportunities, or JavaScript does not work at all.</header> </noscript>
+ <div class="initati">
+ <H1> Color Picker</h1>
+ <H2> By u8_muser</h2>
+<div class="color-picker">
+  
+   <input type="color" id="colorInput" value="#ff0000">
+     <div class="color-info">
+        <p>HEX: <span id="hexValue" >#ff0000</span></p>
+        <p>RGB: <span id="rgbValue">rgb(255, 0, 0)</span></p>
+		<button onclick="myFunction()"><i class="material-icons" style="font-size:15px">build</i>darkmode toggle</button>
+ <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+     </div>
+ </div>
+ </div>
+ </center>
+     <script src="script.js"></script>
+ </body>
+ </html>
