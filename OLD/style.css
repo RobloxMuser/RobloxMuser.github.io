@@ -1,0 +1,40 @@
+.HeaderBarButton1 {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #04AA6D; /* Green */
+  transition-duration: 0.4s;
+}
+.HeaderBarButton1:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+html {
+	font-family: sans-serif;
+	background-color: #000;
+	color: #f00
+}
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+ul.horizontal li a.active {
+    background-color: #f00;
+	color: #000
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
